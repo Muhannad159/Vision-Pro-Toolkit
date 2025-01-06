@@ -84,7 +84,7 @@ With Vision-Pro-Toolkit, users can effortlessly load images, apply a wide range 
 - **Feature Matching:**
   
    | Square Sum of Differences method | Cross-Correlation Method |  SIFT |
-   | :----------------------------: | :-----------------------------: |
+ 
    |![image](https://github.com/AliBadran716/Image-Processing-Kit/assets/102072821/bffb8574-5dfa-43ca-9cd6-d1e848b29b35) | ![image](https://github.com/AliBadran716/Image-Processing-Kit/assets/102072821/52cd4deb-fe08-48d1-9236-8f6d95828e5a) | ![image](https://github.com/AliBadran716/Image-Processing-Kit/assets/102072821/68cf3455-c692-466a-b856-160bc951988e) |
 
   
@@ -92,27 +92,16 @@ With Vision-Pro-Toolkit, users can effortlessly load images, apply a wide range 
   - Utilize Scale-Invariant Feature Transform (SIFT) descriptors to detect and describe key points in images.
   - Compute keypoint matching between images for image registration and alignment tasks.
 
-    <p align="center">
-     <img src="img" />
-   </p>
 
 - **Thresholding Segmentation:**
-  - Apply advanced thresholding segmentation techniques, including Otsu, Spectral, Optimum local, and global thresholding, to segment images into distinct regions and objects.
-    
-   | Local Otsu | Local Spectral | Local Optimum |  
-   | :----------------------------: | :-----------------------------: | :-----------------------------: |
-   |  |  |  |
+  - Apply advanced thresholding segmentation techniques, including Otsu, Spectral, Optimum local, and global thresholding, to segment images into distinct regions and objects:
+    Local Otsu, Local Spectral, Local Optimum, Global Otsu, Global Spectral, Global Optimum.
 
-   | Global Otsu | Global Spectral | Global Optimum |  
-   | :----------------------------: | :-----------------------------: | :-----------------------------: |
-   |  |  |  |
 
 - **RGB Image Segmentation:**
   - Segment RGB images using K-means clustering, mean shift clustering, Agglomerative Segmentation, and Region Growing methods for semantic segmentation and object detection tasks.
+    K-Means Segmentation, Mean Shift Segmentation.
 
-    | K-Means Segmentation | Mean Shift Segmentation |
-    | :----------------------------: | :-----------------------------: |
-    | img |img |
 
     | Agglomerative Segmentation |         Region Growing          |
     | :------------------------: | :-----------------------------: |
